@@ -159,7 +159,7 @@ aXXX@XXXX.com
 Created a low-privileged SQL user to validate masking behavior.
 
 ```sql
-CREATE USER MaskTestUser WITH PASSWORD = 'Password123!';
+CREATE USER MaskTestUser WITH PASSWORD = 'StrongPasswordHere';
 
 GRANT SELECT ON SalesLT.Customer TO MaskTestUser;
 ```
